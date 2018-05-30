@@ -1,0 +1,35 @@
+{
+  "name": "pastela",
+  "version": "1.0.0",
+  "description": "Pastela coming soon page",
+  "main": "index.html",
+  "scripts": {
+    "build": "gulp build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atvorch/Pastela.git"
+  },
+  "keywords": [
+    "Pastela"
+  ],
+  "author": "atvorch",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/atvorch/Pastela/issues"
+  },
+  "homepage": "https://github.com/atvorch/Pastela#readme",
+  "dependencies": {
+    "babel": "^6.23.0",
+    "browser-sync": "^2.24.4",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-babel": "^7.0.1",
+    "gulp-clean-css": "^3.9.4",
+    "gulp-jimp": "^1.2.9",
+    "gulp-js-minify": "0.0.3",
+    "gulp-sass": "^4.0.1",
+    "gulp-sequence": "^1.0.0",
+    "gulp-sourcemaps": "^2.6.4"
+  }
+}
