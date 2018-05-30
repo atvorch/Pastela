@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="103px" height="103px" viewBox="0 0 103 103" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.3 (33839) - http://www.bohemiancoding.com/sketch -->
+    <title>facebook</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M47.5062558,0 C21.2695904,0 0,21.2695904 0,47.5062558 C0,73.7304096 21.2695904,95 47.5062558,95 C73.7304096,95 95,73.7304096 95,47.5062558 C95,21.2695904 73.7304096,0 47.5062558,0 L47.5062558,0 L47.5062558,0 L47.5062558,0 L47.5062558,0 Z M70.6150402,67.5872514 C70.6150402,68.9885421 69.9269064,70.4786646 68.5381272,70.4786646 L56.852364,70.4786646 L56.852364,52.9625313 L62.7953378,52.9625313 L63.6961675,45.455617 L56.852364,45.455617 L56.852364,40.9752404 C56.852364,38.9733965 57.3903595,37.9487028 60.26801,37.9487028 L64.3592783,37.9487028 L64.3592783,31.4039247 C63.1081259,31.316344 61.1688397,31.1286711 58.6290004,31.1286711 C53.3491374,31.1286711 49.3454498,34.3566443 49.3454498,40.2871065 L49.3454498,45.455617 L43.0896879,45.455617 L43.0896879,52.9625313 L49.3454498,52.9625313 L49.3454498,70.4786646 L27.6754906,70.4786646 C26.2741999,70.4786646 25.5735546,68.9885421 25.5735546,67.5872514 L25.5735546,26.7246148 C25.5735546,25.3233241 26.2741999,24.1860266 27.6754906,24.1860266 L68.5381272,24.1860266 C69.9269064,24.1860266 70.6150402,25.3233241 70.6150402,26.7246148 L70.6150402,67.5872514 L70.6150402,67.5872514 L70.6150402,67.5872514 L70.6150402,67.5872514 L70.6150402,67.5872514 Z" id="path-1"></path>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="facebook" transform="translate(4.000000, 2.000000)">
+            <g id="Facebook">
+                <g id="facebook">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

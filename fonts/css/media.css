@@ -1,0 +1,277 @@
+@media only screen and(max-width:1080px) {
+	.container { width: 992px; }
+}
+@media only screen and (max-width:992px) {
+	.container { width: 768px; }
+}
+@media only screen and (max-width:767px) {
+	.container { width: 100%; }
+}
+
+/*GENERAL*/
+* { -webkit-box-sizing: border-box; box-sizing: border-box; margin: 0; padding: 0; }
+body { padding-top: 70px; }
+p { font-family: MullerUltraLight; color: black; font-size: 18px; }
+section { position: relative; }
+.fluid { margin-left: -15px; margin-right: -15px; }
+.fluid2 { margin-left: -30px; margin-right: -30px; }
+.fluid .row, .fluid2 .row { margin: 0; }
+.fluid .row div, .fluid2 .row div { padding: 0; }
+#section-bg { position: absolute; top: 0; left: 0; right: 0; height: 100%; background: none; box-shadow: 0px 0px 28px 0px rgba(0, 0, 0, 0.05); s }
+
+
+
+/* DROPDOWN */
+.menu { padding-left: 0; margin: 0; list-style: none; text-align: right; display: none; right: -10px; top: 70px; position: absolute; background-color: white; z-index: 100; padding: 10px 26px; box-shadow: 0px 15px 28px 0px rgba(0, 0, 0, 0.11); }
+.menu li { font-family: MullerLight; white-space: nowrap; margin: 15px 0; color: black; cursor: pointer; font-family: MullerRegular; font-size: 18px; line-height: 22px; right: 0; text-transform: uppercase; }
+.menu li a { color: black; cursor: pointer; text-decoration: none; }
+.menu li a:hover { font-family: MullerMedium; cursor: pointer; }
+.menu>.social>a { display: inline-block; margin: 0 0 0 20px; }
+.menu>.social { line-height: 40px; }
+nav.greenNav .menu .vk { background-image: url(../img/vk.svg); }
+nav.greenNav .menu .fb { background-image: url(../img/fb.svg); }
+nav.greenNav .menu .inst { background-image: url(../img/inst.svg); }
+
+/* HEADER */
+.florist-container { padding-left: 50px; padding-right: 50px; }
+.florist img { width: 100%; }
+
+/* SLIDER */
+.carousel { background: #EEE; }
+.carousel-cell { width: 100%; margin-right: 10px; background: #8C8; counter-increment: gallery-cell; background: white; }
+.carousel { background-color: white; }
+.carousel .flickity-viewport { height: 300px; }
+.carousel .flickity-page-dots .dot { height: 20px; width: 20px; background: white; border: 4px solid #F15D29; }
+.carousel .flickity-page-dots { bottom: -80px; }
+.carousel button { display: none; }
+.carousel img { width: 75%; margin: 0 auto; display: block; }
+.icon-footer-logo { font-size: 80px; text-align: center; margin-top: 10px; margin-bottom: 10px; }
+#discount p { color: #F15D29; margin-bottom: 20px; display: block; }
+@media only screen and (min-width:300px) {
+
+	/* COMMON */
+	h1, h2, h3, h4, h5 { text-transform: uppercase; font-family: MullerBold; }
+	h1 { color: white; font-size: 60px; font-family: MullerBold; color: #FFFFFF; letter-spacing: 4.06px; text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.50); }
+	h3 { font-family: MullerMedium; color: #F15D29; font-size: 30px; margin-bottom: 40px; letter-spacing: 2px; text-align: center; }
+	h4 { color: #F15D29; font-size: 35px; letter-spacing: 2px; }
+	h5 { font-family: MullerMedium; color: black; font-size: 18px; letter-spacing: 1px; }
+	#bart img, #buket img, #rastenia img, #decor img, #delivery img { width: 100%; margin-bottom: 20px; }
+	#bart p, #buket p, #rastenia p, #decor p, #delivery p { margin: 0 20px 20px 20px; }
+
+	/* HEADER */
+	header { background-image: url(../img/mflowers.jpg); background-repeat: no-repeat; background-size: 100%; height: 212px; padding-top: 9%; }
+	header h2 { color: #509A44; font-size: 13px; line-height: 17px; text-align: right; letter-spacing: 1px; margin-bottom: 0; }
+	header span { color: #509A44; text-align: right; display: block; font-size: 13px; font-family: MullerBold; margin-top: 15px; letter-spacing: 1px; line-height: 10px; }
+
+	/* FLORISTU */
+	#floristu h3 { margin-bottom: 60px; }
+	#floristu h5 { text-align: center; margin-top: 20px; }
+	#floristu .florist { margin-bottom: 50px; }
+
+	/* INSTAGRAM */
+	#instagram { margin-bottom: 30px; }
+	#instagram h3 { margin-bottom: 60px; }
+	#instagram .row:nth-child(2) { margin: 0 }
+	.instagram div { padding: 0; }
+	.instagram { padding: 0; line-height: 0; }
+	.instagram a { display: block; width: 100%; height: 100%; overflow: hidden; }
+	.instagram img { width: 100%; -webkit-transform: translate(0px, 0); -webkit-transition: -webkit-transform 0.8s ease; -moz-transform: translate(0px, 0); -moz-transition: -webkit-transform 0.8s ease; transform: translate(0px, 0); transition: -webkit-transform 0.8s ease; }
+	.instagram img:hover { transform: scale(1.1); transition: all 1s ease; }
+	.instagram div:nth-child(1n+10) { display: none; }
+
+	/* CENNOSTI */
+	#cennosti { margin-bottom: 30px; }
+	#cennosti h3 { margin-bottom: 0px; }
+	#cennosti h4 { margin-bottom: 20px; }
+	#cennosti .carousel { text-align: center }
+	#cennosti .carousel .carousel-cell { left: 0%; top: 20px; padding: 35px; margin-bottom: 20px; }
+	#cennosti .carousel .flickity-page-dots { bottom: 0px; }
+	#cennosti, #infografica { padding-top: 0; }
+
+	/* INFOGRAFICA */
+	#infografica { margin: 0 0 120px 0; }
+	#infografica img[src*="img/800.svg"] { margin-top: 50px; }
+
+	/* DISCOUNT */
+	#discount h4 { margin-top: 200px; }
+	#discount h1 { margin-top: 337px; margin-bottom: 0; margin-left: -14px; }
+	#discount { height: 900px; margin-left: -100px; padding-left: 100px; }
+	.discount { font-family: MullerMedium; font-size: 232px; color: #FFFFFF; letter-spacing: -2.53px; text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.50); line-height: 225px; margin-left: -30px; }
+
+	/* CONTACTS */
+	#contacts { padding: 0 50px; }
+	#contacts p { font-family: MullerLight; font-size: 16px; }
+	#contacts h3 { margin-bottom: 50px; }
+	#contacts h5 { margin-bottom: 7px; font-family: MullerMedium; font-size: 18px; }
+	#contacts h4 { font-family: MullerMedium; font-size: 14px; }
+	#contacts .address { margin-bottom: 30px; }
+	#contacts .time { margin-bottom: 30px; }
+	#contacts .phone { margin-bottom: 10px; }
+	#contacts .address hr { width: 90px; border-color: black; border-width: 0.5px 0; margin: 0 0 15px 0; }
+	#contacts .time hr { width: 180px; border-color: black; border-width: 0.5px 0; margin: 0 0 15px 0; }
+	#contacts .phone hr { width: 130px; border-color: black; border-width: 0.5px 0; margin: 0 0 15px 0; }
+
+	/* FOOTER */
+	footer { height:80px;position: absolute; left: 0; width: 100%; background: rgba(255, 255, 255, 0.59); text-align: center; padding-left: 15px; padding-right: 15px; }
+	footer a, footer a:hover { text-decoration: none; cursor: pointer !important; }
+	footer i { margin-top: 27px; margin-left: 25px; height: 28px; width: 28px; display: inline-block; cursor: pointer; background-repeat: no-repeat; }
+	footer span { display: block; color: black; }
+	footer .fb { background-image: url(../img/fb-black.svg); }
+	footer .vk { background-image: url(../img/vk-black.svg); }
+	footer .inst { background-image: url(../img/inst-black.svg); }
+	footer .footer-logo {background-image: url(../img/m-logo-black.svg);width:80px;height: 44px;display: block;margin-top: 16px;}
+
+
+	/* NAVIGATION */
+	/* NAV */
+	nav {height: 70px; margin-bottom: 0; border: none; background: white; position: absolute; width: 100%; top: 0; left: 0; position: fixed; z-index: 100; background-color: white;}
+	nav .container { margin-bottom: 0 !important; padding: 0 50px; box-shadow: none; }
+	nav .mainNavDropDown .social>a { display: inline-block; margin-left: 20px; margin-top: 7px; margin-bottom: 7px; }
+	nav .phone { display: inline-block; font-family: MullerRegular; font-size: 14px; margin-right: 15px; vertical-align: middle; }
+	nav .social>a { display: inline-block; margin-left: 20px; margin-top: 27px; margin-bottom: 27px; }
+	nav i { display: block; display: inline-block; }
+	nav.whiteNav { background: white; animation: whiteNav 1s; -moz-animation: whiteNav 1s; -webkit-animation: whiteNav 1s; -o-animation: whiteNav 1s; }
+	nav.greenNav { box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.30); color: white; background: #509A44; animation: greenNav 1s; -moz-animation: greenNav 1s; -webkit-animation: greenNav 1s; -o-animation: greenNav 1s; }
+	nav.greenNav .mobile-logo { background-image: url(../img/m-logo-white.svg); height: 44px; width: 80px; background-repeat: no-repeat; text-align: center; margin-top: 12px; }
+	nav.whiteNav .mobile-logo { background-image: url(../img/m-logo-black.svg); height: 44px; width: 80px; background-repeat: no-repeat; text-align: center; margin-top: 12px; }
+	nav .vk { background-image: url(../img/vk.svg); height: 12px; width: 21px; display: block; background-repeat: no-repeat; }
+	nav .fb { background-image: url(../img/fb.svg); height: 18px; width: 9px; display: block; background-repeat: no-repeat; }
+	nav .inst { background-image: url(../img/inst.svg); height: 19px; width: 20px; display: block; background-repeat: no-repeat; }
+	nav.greenNav .vk { background-image: url(../img/vk-white.svg); height: 12px; width: 21px; display: block; background-repeat: no-repeat; }
+	nav.greenNav .fb { background-image: url(../img/fb-white.svg); height: 18px; width: 9px; display: block; background-repeat: no-repeat; }
+	nav.greenNav .inst { background-image: url(../img/inst-white.svg); height: 19px; width: 20px; display: block; background-repeat: no-repeat; }
+	.mobile-logo-container { text-align: center; }
+	.phone-call { background-image: url(../img/phone-in-talk.svg); background-repeat: no-repeat; background-size: 40px; height: 40px; width: 40px; margin-top: 15px; }
+	.logo-frame { width: 260px; height: 260px; background-color: white; border-radius: 130px; position: absolute; top: -114px; padding: 121px 0 0 8px; box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.50); z-index: 101; text-align: center; margin: 0 auto; left: 0; right: 0; }
+	.main-logo { background-image: url(../img/main-logo.svg); height: 106px; width: 151px; background-repeat: no-repeat; }
+	.show-logo { top: -114px; animation: show-logo 1s; }
+	.hide-logo { top: -270px; animation: hide-logo 1s; }
+}
+@media only screen and (min-width:420px) {
+	header { height: 324px; padding-top: 10%; }
+	header h2 { font-size: 19px; line-height: 23px; }
+	header span { font-size: 18px; margin-top: 20px; }
+}
+@media only screen and (min-width:580px) {
+	header { height: 324px; padding-top: 10%; }
+	header h2 { font-size: 28px;
+    line-height: 35px;}
+	header span { font-size: 24px; margin-top: 30px; }
+}
+@media only screen and (min-width:767px) {
+	main { margin-bottom: -80px; }
+
+	/* COMMON */
+	h3 { text-align: left; }
+	p { text-align: left; padding: 0; }
+	#bart, #floristu, #buket, #rastenia, #decor, #delivery, #cennosti, #infografica, #instagram { margin-bottom: 90px; }
+	#infografica, #cennosti { padding: 90px 0; }
+	#bart img, #buket img, #rastenia img, #decor img, #delivery img { width: 100%; margin-bottom: 0px; }
+	#bart p, #buket p, #rastenia p, #decor p, #delivery p { margin: 0 0; }
+	#cennosti h3 { margin-bottom: 60px; }
+
+	/* HEADER */
+	header { background-image: url(../img/flowers.jpg);height: 511px; background-size: 100%; padding-top: 16%; margin-bottom: 90px; }
+	header h2 { font-size: 28px; line-height: 35px; }
+	header span { font-size: 25px; margin-top: 35px; }
+	nav {padding: 0 50px;}
+	nav .container { padding: 0 50px }
+	#decor img { margin-bottom: 0; }
+	#bart h3 { margin-top: 60px; }
+	#buket h3 { margin-top: 75px; }
+	#rastenia h3 { margin-top: 95px; }
+	#decor h3 { margin-top: 55px; }
+	#delivery h3 { margin-top: 50px; }
+	#floristu h3 { margin-bottom: 60px; }
+
+	/*	INSTAGRAM */
+	.instagram div:nth-child(n) { display: block; }
+	.florist h5 { font-family: MullerRegular; font-size: 17px; text-transform: none; margin-top: 15px; margin-bottom: 10px; }
+	.florist p { margin: 0; font-family: MullerRegular; font-size: 13px; text-align: center; }
+	#decor img, #buket img { width: 100%; }
+	#contacts { height: 751px; padding-top: 0; background-position-y: 77px; background-image: url(../img/contacts-bg.jpg); background-size: 100%; background-repeat: no-repeat; margin-left: -15px; margin-right: -15px; text-align: center; }
+	#contacts h3, #contacts p { text-align: center; }
+	#contacts hr:first-child { margin-left: 67px; }
+	.contacts-container { width: 400px; margin: 0 auto; background-color: white; box-shadow: 0px 8px 58px 0px rgba(0, 0, 0, 0.13); padding: 10px; }
+	.contacts-body { padding: 40px 70px; border: 1px solid rgba(0, 0, 0, 0.14); }
+	.contacts-body h4 { margin-bottom: 6px; margin-top: 0; }
+	.contacts-body p { font-size: 15px; line-height: 19px; color: rgb(68, 68, 68); }
+	.contacts-body hr { margin-top: 0px; margin-bottom: 10px; border-color: black; }
+	.contacts-body .address, .contacts-body .time { margin-bottom: 30px !important; }
+	#contacts .address hr { width: 90px; border-color: black; border-width: 0.5px 0; margin: 0 0 15px 75px; }
+	#contacts .time hr { width: 180px; border-color: black; border-width: 0.5px 0; margin: 0 0 15px 27px; }
+	#contacts .phone hr { width: 130px; border-color: black; border-width: 0.5px 0; margin: 0 0 15px 53px; }
+
+	/* DISCOUNT */
+	#discount .discount-container { }
+	#discount form { position: relative; }
+	#discount form .success { display: none; position: absolute; width: 100%; height: 100%; background: white; z-index: 101; top: 0; left: 0; padding: 50px; }
+	#discount form .success p { color: #509A44; margin-top: 40px; font-size: 18px; }
+	#discount form .success i.done { display: block; margin: 0 auto; background-image: url(../img/well-done.svg); width: 97px; height: 77px; }
+	.large-leaf { position: absolute; top: -50px; left: -250px; right: 0; background-image: url(../img/large-leaf.png); height: 944px; width: 883px; z-index: -1; }
+	.loader { display: none; position: absolute; top: 0; left: 0; width: 100%; height: 100%; padding: 90px 0 0 20px; background: rgba(255, 255, 255, 0.77); }
+	.hourglass { display: block; background: #509A44; margin: 3em auto; width: 2em; height: 4em; box-shadow: inset white 0 0 0 0, inset #509A44 0 2em 0 0, inset white 0 0 4em 0; animation: hourglass 1s linear infinite; }
+	.outer { fill: #509A44; }
+	.middle { fill: white; }
+	@keyframes hourglass {
+		0% { transform: rotate(0deg); box-shadow: inset white 0 0 0 0, inset #509A44 0 2em 0 0, inset white 0 4em 0 0, inset #509A44 0 4em 0 0; }
+		80% { transform: rotate(0deg); box-shadow: inset white 0 2em 0 0, inset #509A44 0 2em 0 0, inset white 0 2em 0 0, inset #509A44 0 4em 0 0; }
+		100% { transform: rotate(180deg); box-shadow: inset white 0 2em 0 0, inset #509A44 0 2em 0 0, inset white 0 2em 0 0, inset #509A44 0 4em 0 0; }
+	}
+
+	/* FORM */
+	#mail-form { padding:30px 30px 50px 30px; box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.32); width: 360px; background-color: white; }
+	.valid { border-color: #509A44; }
+	.invalid { border-color: #F05E2A; }
+	input:before { content: '\25CF'; font-size: 200px; }
+	input, textarea { width: 300px; min-height: 34px; display: block; margin-bottom: 15px; padding: 6px 15px 6px 15px; outline: none; border: 1px solid #DDDDDD; }
+	textarea { height: 80px; padding-top: 8px; resize: none; margin-bottom: 24px; }
+	button {right:0;display:inline-block;position:absolute;top:0;outline:none; border-radius: 4px; background-color: #509A44; padding: 12px 15px 9px 15px; color: white; text-transform: uppercase; font-family: MullerUltraLight; font-size: 14px; letter-spacing: 2px; border: none;}
+	button:active {box-shadow: inset 0px -1px 15px 0px rgb(51, 93, 45);}
+	.form-footer {width: 100%;position: relative;}
+	.error {width: 50%;display: inline-block;}
+	.error-icon{display: 
+    background-image: url(../img/warning.svg);
+    height: 54px;
+    width: 16px;
+    background-repeat: no-repeat;}
+    #discount .error p{display:none;font-size: 13px;
+    line-height: 16px;
+}
+
+	::-webkit-input-placeholder { font-family: MullerUltraLight; color: #CFCFCF; letter-spacing: 2px; }
+	::-moz-placeholder { font-family: MullerUltraLight; color: #CFCFCF; letter-spacing: 2px; }
+	:-moz-placeholder { font-family: MullerUltraLight; color: #CFCFCF; letter-spacing: 2px; }
+	:-ms-input-placeholder { font-family: MullerUltraLight; color: #CFCFCF; letter-spacing: 2px; }
+	.icon-ideofios { font-size: 56px; text-align: left; margin-top: 22px; margin-bottom: 22px; }
+
+
+	/* FOOTER */
+	footer { position: absolute; left: 0; width: 100%; background: rgba(255, 255, 255, 0.59); }
+}
+@media only screen and (min-width:992px) {
+	header { height: 661px; padding-top: 18%; }
+	header h2 { font-size: 35px; line-height: 45px; }
+	header span { font-size: 30px; margin-top: 35px; }
+	#delivery h3 { margin-top: 60px; }
+	#bart h3 { margin-top: 50px; }
+	#buket h3 { margin-top: 110px; }
+	#decor h3 { margin-top: 80px; }
+	nav .phone-container { margin-top: 15px; }
+
+/* CONTACRTS */ }
+@media only screen and (min-width:1069px) {
+	nav .phone-container { margin-top: 25px; }
+}
+@media only screen and (min-width:1080px) {
+	header { height: 800px; }
+	header h2 { font-size: 37px; line-height: 45px; }
+	header span { font-size: 34px; margin-top: 40px; }
+	#decor h3 { margin-top: 120px; }
+	#delivery h3 { margin-top: 100px; }
+	#bart h3 { margin-top: 90px; }
+}
+@media only screen and (min-width:1400px) {
+	header h2 { font-size: 47px; line-height: 60px; }
+	header span { font-size: 40px; margin-top: 35px; }
+}

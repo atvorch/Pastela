@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="81px" height="81px" viewBox="0 0 81 81" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.3 (33839) - http://www.bohemiancoding.com/sketch -->
+    <title>facebook-hover</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <radialGradient cx="50%" cy="50%" fx="50%" fy="50%" r="135.725058%" id="radialGradient-1">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#FF2590" offset="100%"></stop>
+        </radialGradient>
+        <path d="M36.1247559,0.760069042 C16.1738439,0.760069042 0,16.9264586 0,36.8681755 C0,56.8003829 16.1738439,72.9667724 36.1247559,72.9667724 C56.066154,72.9667724 72.2399979,56.8003829 72.2399979,36.8681755 C72.2399979,16.9264586 56.066154,0.760069042 36.1247559,0.760069042 L36.1247559,0.760069042 Z M53.6971616,52.1311492 C53.6971616,53.196229 53.1738902,54.3288272 52.1178333,54.3288272 L43.2317332,54.3288272 L43.2317332,41.0153299 L47.7508955,41.0153299 L48.4359053,35.3095454 L43.2317332,35.3095454 L43.2317332,31.904143 C43.2317332,30.3826004 43.6408363,29.6037609 45.8290623,29.6037609 L48.9401487,29.6037609 L48.9401487,24.6292677 C47.9887461,24.5627002 46.5140721,24.4200556 44.5827249,24.4200556 C40.567806,24.4200556 37.5233177,26.873543 37.5233177,31.3811127 L37.5233177,35.3095454 L32.7663048,35.3095454 L32.7663048,41.0153299 L37.5233177,41.0153299 L37.5233177,54.3288272 L21.0450251,54.3288272 C19.9794542,54.3288272 19.4466687,53.196229 19.4466687,52.1311492 L19.4466687,21.072662 C19.4466687,20.0075822 19.9794542,19.1431559 21.0450251,19.1431559 L52.1178333,19.1431559 C53.1738902,19.1431559 53.6971616,20.0075822 53.6971616,21.072662 L53.6971616,52.1311492 L53.6971616,52.1311492 Z" id="path-2"></path>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.774711277 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Large-Screen-1920-x-1080" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="simple" transform="translate(-785.000000, -544.000000)">
+            <g id="with-tape" transform="translate(0.000000, -128.000000)">
+                <g id="Form" transform="translate(685.000000, 251.000000)">
+                    <g id="contacts" transform="translate(96.000000, 423.000000)">
+                        <g id="watercolore-tape">
+                            <g id="icons" transform="translate(8.541815, 0.000000)">
+                                <g id="facebook-hover">
+                                    <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                                    <use fill="url(#radialGradient-1)" fill-rule="evenodd" xlink:href="#path-2"></use>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
