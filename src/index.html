@@ -10,20 +10,20 @@
 
 <body>
 
-	<div class="content">
+	<main class="container">
 
 		<img class="logo" src="images/pastela-logo.png">
 
 		<div class="blur-bg"></div>
 
-		<div class="over-blur">
-			<h1>Скоро открытие!</h1>
+		<div class="content">
+			<h1 class="title">Скоро открытие!</h1>
 
 			<img class="separator" src="images/separator.svg">
 
-			<p class="message">Уже скоро вы сможете купить лучшую постель <br>на нашем сайте. А пока вы можете ознакомиться <br>с нашей продукцией или сделать заказ по телефону,<br> электронной почте и в социальных сетях:</p>
+			<p class="message">Уже скоро вы сможете купить лучшую постель на нашем сайте. А пока вы можете ознакомиться с нашей продукцией или сделать заказ по телефону, электронной почте и в социальных сетях:</p>
 
-			<div class="info clearfix" >
+			<div class="info">
 
 				<a href="https://www.facebook.com/profile.php?id=100013596708577&fref=ts" target = "_blank">
 					<img src="images/facebook.svg" class="facebook">
@@ -39,21 +39,19 @@
 				</a>
 			</div>
 
-			<form class="email-form" method='POST' action="" onsubmit="return false;">
+			<form class="form" method='POST' action="" onsubmit="return false;">
 
-				<div class="email-label">
-					<label class="email-message">Узнай о нашем открытии!</label>
-					<label class="email-success">Вашь емейл успешно сохранен!</label>
-				</div>
+				<label class="form__label form__label_message">Узнай о нашем открытии!</label>
+				<label class="form__label form__label_success">Вашь емейл успешно сохранен!</label>
 
-				<div class="email-block">
-					<img class="loader" src="images/loader.svg">
-					<input type='email' class="email" name='form_data[email]' placeholder="Введите адресс электронной почты..." required></input>
-					<button type='submit' class="submit">ОТПРАВИТЬ</button>
+				<div class="form__content">
+					<img class="form__loader" src="images/loader.svg">
+					<input type='email' class="form__input" name='form_data[email]' placeholder="Введите адресс электронной почты..." required></input>
+					<button type='submit' class="form__submit">ОТПРАВИТЬ</button>
 				</div>
 			</form>
 		<div>
-	</div>
+	</main>
 
 	<script src='js/jquery-1.12.1.min.js'></script>
 	<script src='js/main.js'></script>
